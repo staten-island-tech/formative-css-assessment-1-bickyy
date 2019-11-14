@@ -1,21 +1,28 @@
-body {
+
+div {
     background-image: linear-gradient(to right bottom,
-    rgb(102, 204, 255),
-    rgb(204, 238, 255)
+    rgba(200, 212, 218, 0.856),
+    rgba(80, 185, 238, 0.466)
     ),
     url(snow.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
+    height: 100vh;
 }
 
 h1 {
-    color: cornflowerblue;
-    font-size: 90 px;
+    color: rgb(0, 89, 255);
+    font-size: 90px;
     text-transform: uppercase;
 }
 
 li {
-    color: cornflowerblue;
+    color: rgb(20, 98, 243);
     list-style: none;
+    font-size: 55px;
+}
+
+img {
+    filter: brightness(140%) drop-shadow(10px 10px 15px black);
 }
